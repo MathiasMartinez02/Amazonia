@@ -13,17 +13,14 @@ const { metadata } = Astro.props;
 ---
 
 <PageLayout metadata={metadata}>
-  <Fragment slot="announcement">
-    <slot name="announcement" />
-  </Fragment>
   <Fragment slot="header">
     <slot name="header">
       <Header
         links={headerData?.links[2] ? [headerData.links[2]] : undefined}
         actions={[
           {
-            text: 'Download',
-            href: 'https://github.com/onwidget/astrowind'
+            text: 'Donate',
+            href: 'http://soportedino/front/ticket.php?is_deleted=0&search=Buscar&itemtype=Ticket&criteria[0][field]=8&criteria[0][searchtype]=equals&criteria[0][value]=3&criteria[1][link]=AND%20NOT&criteria[1][field]=12&criteria[1][searchtype]=equals&criteria[1][value]=old&reset=reset'
           },
         ]}
         showToggleTheme

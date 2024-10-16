@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: Amazônia
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Amazônia
+    template: '%s — Amazônia'
+  description: "\U0001F680 Obra benefica para llevar el evangelio a las comunidades del Amazonas."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Amazônia
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -89,9 +89,9 @@ ui:
       fonts: {}
       colors:
         default: rgb(229 236 246)
-        heading: rgb(247, 248, 248)
+        heading: '#001010'
         muted: rgb(229 236 246 / 66%)
-        bgPage: rgb(3 6 32)
+        bgPage: '#0b2828'
         primary: rgb(1 97 239)
         secondary: rgb(1 84 207)
         accent: rgb(109 40 217)

@@ -80,7 +80,7 @@ export interface AnalyticsConfig {
 
 export interface UIConfig {}
 
-const DEFAULT_SITE_NAME = 'Website';
+const DEFAULT_SITE_NAME = 'Amazônia';
 
 const getSite = (config: Config) => {
   const _default = {
@@ -118,7 +118,7 @@ const getMetadata = (config: Config) => {
 
 const getI18N = (config: Config) => {
   const _default = {
-    language: 'en',
+    language: 'es',
     textDirection: 'ltr',
   };
 
