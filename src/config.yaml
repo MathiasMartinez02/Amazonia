@@ -1,6 +1,6 @@
 site:
   name: Amazônia
-  site: 'https://astrowind.vercel.app'
+  site: 'https://amazonia-ten.vercel.app'
   base: '/'
   trailingSlash: false
 
