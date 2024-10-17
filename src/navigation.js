@@ -14,12 +14,12 @@ export const headerData = {
       href: '#' ,
     },
     {
-      text: 'Blog',
-      href: '#',
+      text: 'Preguntas Frecuentes',
+      href: '#PF',
     },
     {
       text: 'Contactos',
-      href: '#',
+      href: getPermalink('/contact'),
     },
   ],
   actions: [{ text: 'Donar', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
