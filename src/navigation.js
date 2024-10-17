@@ -8,15 +8,19 @@ export const headerData = {
     },
     {
       text: 'Proyecto',
-      href: '#'    
+      href: '#Proyect'    
     },
     {
-      text: 'Acerca de nosotros',
-      href: '#' ,
+      text: 'Como Ayudarnos',
+      href: '#Helpers' ,
     },
     {
       text: 'Preguntas Frecuentes',
       href: '#PF',
+    },
+    {
+      text: 'Acerca de Nosotros!',
+      href: getPermalink('/about'),
     },
     {
       text: 'Contactos',

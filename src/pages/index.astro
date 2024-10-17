@@ -20,6 +20,7 @@ const metadata = {
 
   <Hero
     id = 'Home'
+    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
     actions={[
       {
         variant: 'primary',
@@ -28,12 +29,11 @@ const metadata = {
         target: '_blank',
         icon: 'tabler:heart-handshake',
       },
-      { text: 'Conocenos más', href: '#features ' },
+      { text: 'Conocenos más', href: '#Proyect' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      2 Tesalonicenses <span class="hidden xl:inline">1:11</span>
+      2 Tesalonicenses 1:11
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -52,6 +52,7 @@ const metadata = {
 
   <Content
     isReversed
+    id = 'Proyect'
     tagline="Dentro del Proyecto"
     title="Conoce el porque de este deseo de nuestro corazon!"
     items={[
@@ -198,6 +199,7 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
+    id = 'Helpers'
     title="Formas de Ayudarnos"
     subtitle="Y si alguien da aunque sea un vaso de agua fría a uno de estos pequeños, por ser discípulo mío, de cierto os digo que no perderá su recompensa - Mateo 10:42"
     tagline="Ayudas"
