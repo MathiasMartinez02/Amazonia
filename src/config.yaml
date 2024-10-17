@@ -11,7 +11,7 @@ metadata:
   title:
     default: Amazônia
     template: '%s — Amazônia'
-  description: "\U0001F680 Obra benefica para llevar el evangelio a las comunidades del Amazonas."
+  description: "🌱 Obra benefica para llevar el evangelio a las comunidades del Amazonas."
   robots:
     index: true
     follow: true
