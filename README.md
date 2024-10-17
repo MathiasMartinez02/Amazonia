@@ -5,5 +5,5 @@
 
 🌟 _Proyecto Amazonas_. 🌟
 
-**Amazônia** es un proyecto de jovenes cristianos para visitar comunidades indigenas de la selva del Amazonas **
+**Amazônia** es un proyecto de jovenes cristianos para visitar comunidades indigenas de la selva del Amazonas
 
