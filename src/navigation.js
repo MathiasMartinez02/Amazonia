@@ -1,14 +1,15 @@
-import { getPermalink, getAsset } from './utils/permalinks';
+import { getPermalink, getAsset} from './utils/permalinks';
 
 export const headerData = {
   links: [
     {
       text: 'Inicio',
-      href: '#',
+      href: '#Home',
     },
     {
       text: 'Proyecto',
-      href: '#'    },
+      href: '#'    
+    },
     {
       text: 'Acerca de nosotros',
       href: '#' ,
