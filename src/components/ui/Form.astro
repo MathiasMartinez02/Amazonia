@@ -70,7 +70,11 @@ const { inputs, textarea, disclaimer, button = 'Enviar', description = '' } = As
   {
     button && (
       <div class="mt-10 grid">
-        <Button variant="primary" type="submit">
+        <Button variant="primary" 
+        type="button"
+        href={`mailto:mathiasjulian295@gmail.com?Subject=Queremos%20saber%20más%20del%20proyecto!&body=${encodeURIComponent(description)}`}
+        target='_blank'
+        >
           {button}
         </Button>
       </div>
