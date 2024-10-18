@@ -1,22 +1,22 @@
-import { getPermalink, getAsset} from './utils/permalinks';
+import { getPermalink} from './utils/permalinks';
 
 export const headerData = {
   links: [
     {
       text: 'Inicio',
-      href: '#Home',
+      href: '/#Home',
     },
     {
       text: 'Proyecto',
-      href: '#Proyect'    
+      href: '/#Proyect'    
     },
     {
       text: 'Como Ayudarnos',
-      href: '#Helpers' ,
+      href: '/#Helpers' ,
     },
     {
       text: 'Preguntas Frecuentes',
-      href: '#PF',
+      href: '/#FAQ',
     },
     {
       text: 'Acerca de Nosotros!',
@@ -27,7 +27,7 @@ export const headerData = {
       href: getPermalink('/contact'),
     },
   ],
-  actions: [{ text: 'Donar', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Donar', href: 'https://github.com/MathiasMartinez02', target: '_blank' }],
 };
 
 export const footerData = {
