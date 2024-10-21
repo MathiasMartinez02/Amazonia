@@ -1,8 +1,15 @@
 ---
 import type { Form as Props } from '~/types';
-import Button from '~/components/ui/Button.astro';
+import { twMerge } from 'tailwind-merge';
 
 const { inputs, textarea, disclaimer, button = 'Enviar', description = '' } = Astro.props;
+
+const variants = {
+  primary: 'btn-primary',
+  secondary: 'btn-secondary',
+  tertiary: 'btn btn-tertiary',
+  link: 'cursor-pointer hover:text-primary',
+};
 ---
 
 <form>
@@ -70,13 +77,13 @@ const { inputs, textarea, disclaimer, button = 'Enviar', description = '' } = As
   {
     button && (
       <div class="mt-10 grid">
-        <Button variant="primary" 
-        type="button"
-        href={`mailto:mathiasjulian295@gmail.com?Subject=Queremos%20saber%20más%20del%20proyecto!&body=${encodeURIComponent(description)}`}
-        target='_blank'
+        <a
+          href={`mailto:mathiasjulian295@gmail.com?Subject=Queremos%20saber%20más%20del%20proyecto!&body=${encodeURIComponent(description)}`}
+          target="_blank"
+          class={twMerge(variants['primary'], 'custom-class')}
         >
-          {button}
-        </Button>
+        {button}
+        </a>
       </div>
     )
   }
